@@ -1,0 +1,33 @@
+.container {
+    margin-left: 40%;
+}
+h1{
+    color: black;
+    font-size: 40px;
+    font-weight: bolder;
+    text-shadow: 2px 2px orangered;
+}
+h3{
+    color: red;
+}
+
+.field {
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.event {
+    width: 50%;
+    margin-top: 20px;
+    border: 1px solid rgb(54, 183, 206);
+    background-color: whitesmoke;
+    padding-left: 10px;
+}
+
+button {
+    background-color: skyblue;
+    color: white;
+    border: 1px solid rgb(33, 150, 196);
+    text-align: center;
+    padding: 2px;
+}
