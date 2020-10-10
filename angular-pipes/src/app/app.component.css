@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+*{
+  font-weight: 300;
+  font-family: Poppins;
+}
+
+header{
+  background-color: orangered;
+  height: 50px;
+  color: white;
+  text-align: center;
+}
+header h1{
+  padding-top: 10px;
+  font-weight: 900;
+}
+.container{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.item{
+  padding: 50px;
+}
+.item:nth-child(odd){
+  background: #fc5c9c;
+  color: white;
+}
+
+.item:nth-child(even){
+  background: #FFF222;
+  color: #E74292;
+}
+.item:nth-child(odd) h1{
+  color: #d72323;
+  font-size: 60px;
+}
+.item:nth-child(even) h1{
+  color: #22d1ee;
+  font-size: 60px;
+}
+.item p{
+  font-size: 30px;
+}

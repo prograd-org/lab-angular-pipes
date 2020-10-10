@@ -1,0 +1,39 @@
+<header>
+  <h1>Angular Pipes Lab</h1>
+</header>
+<div class="container">
+  <h1>Pipes in Angular</h1>
+  <div class="item">
+    <h1>Date Pipes</h1>
+    <p>Full Date: {{ todayDate | date: "E LLL dd yyyy HH:MM:SS OOOO " }}</p>
+    <p>Short Date: {{ todayDate | date: "shortDate" }}</p>
+    <p>Medium Date: {{ todayDate | date: "mediumDate" }}</p>
+    <p>Full Date: {{ todayDate | date: "fullDate" }}</p>
+    <p>Time: {{ todayDate | date: "HH:MM" }}</p>
+    <p>Time: {{ todayDate | date: "hh:MM:ss aaaa" }}</p>
+    <p>Time: {{ todayDate | date: "hh:MM:ss aaaaa" }}</p>
+  </div>
+  <div class="item">
+    <h1>Number Pipes</h1>
+    <p>No Formatting: {{ num | number }}</p>
+    <p>2 Decimal Places: {{ num | number: "1.2-2" }}</p>
+  </div>
+  <div class="item">
+    <h1>Currency Pipes</h1>
+    <p>No Formatting: {{ curr }}</p>
+    <p>USD Dollar($): {{ curr | currency: "USD" }}</p>
+    <p>USD Dollar: {{ curr | currency: "USD":"code" }}</p>
+    <p>INR(): {{ curr | currency: "INR" }}</p>
+    <p>INR : {{ curr | currency: "INR":"code" }}</p>
+  </div>
+  <div class="item">
+    <h1>String Related Pipes</h1>
+    <p>Actual Message: {{ msg }}</p>
+    <p>Lower Case: {{ msg | lowercase }}</p>
+    <p>Upper Case: {{ msg | uppercase }}</p>
+  </div>
+  <div class="item">
+    <h3>Percentage Pipes</h3>
+    <p>2 Place Formatting : {{ 100 | percent: "4.2-5" }}</p>
+  </div>
+</div>
